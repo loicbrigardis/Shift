@@ -1,0 +1,27 @@
+{
+  "name": "shift",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "npx parcel index.html",
+    "build": "npx parcel build index.html --public-url ./"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dragscroll": "0.0.8",
+    "lerp": "^1.0.3",
+    "parcel": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-three-fiber": "^4.0.17",
+    "three": "^0.113.2",
+    "threejs-meshline": "^2.0.9"
+  },
+  "devDependencies": {
+    "sass": "^1.25.0"
+  }
+}
